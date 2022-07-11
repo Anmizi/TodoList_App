@@ -1,0 +1,20 @@
+.todo-header {
+  margin-top: 40px;
+}
+.todo-header .todo-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: skyblue;
+  text-align: center;
+}
+.todo-header .todo-input input {
+  width: 400px;
+  height: 32px;
+  line-height: 32px;
+  padding: 10px 20px;
+  box-shadow: 0 0 4px #ccc inset;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #333;
+}

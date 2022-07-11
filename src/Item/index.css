@@ -1,0 +1,40 @@
+.todo-item {
+  position: relative;
+  box-shadow: 0 0 6px 0 #ccc inset;
+  height: 40px;
+  line-height: 40px;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+}
+.todo-item input[type="checkbox"] {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+.todo-item input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+}
+.todo-item span {
+  position: absolute;
+  left: 40px;
+}
+.todo-item .deleteBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  outline: none;
+  border: none;
+  background: #d63031;
+  color: #fff;
+  padding: 4px 10px;
+}
+.todo-item .deleteBtn:active {
+  box-shadow: 2px 2px 4px 0 rgba(214, 48, 49, 0.7);
+}
+.todo-item.active {
+  background-color: skyblue;
+}

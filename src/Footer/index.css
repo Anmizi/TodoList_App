@@ -1,0 +1,26 @@
+.todo-footer {
+  text-align: center;
+}
+.todo-footer p {
+  padding: 10px;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+}
+.todo-footer .deleteBtn {
+  margin-left: 40px;
+  padding: 4px 10px;
+  background: rgba(214, 48, 49, 0.7);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+.todo-footer .deleteBtn:disabled {
+  margin-left: 40px;
+  padding: 4px 10px;
+  background: #ccc;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
